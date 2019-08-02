@@ -5,7 +5,7 @@ num = Random.rand 1..6
   guess_num = gets.chomp
   if guess_num == "exit"
     puts "Goodbye!"
-  elsif guess_num == num
+  elsif guess_num + 1 == num
     puts "You guessed the correct number!"
   else guess_num != num
     puts "Sorry! The computer guessed #{num}"
