@@ -6,3 +6,4 @@ input = gets.chomp
 if input == "exit"
   puts "Goodbye!"
 end
+end
