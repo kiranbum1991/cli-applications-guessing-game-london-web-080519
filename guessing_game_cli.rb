@@ -8,6 +8,6 @@ num = rand(1..6)
   elsif guess_num == num
     puts "You guessed the correct number!"
   else guess_num != num
-    puts "Sorry! The computer guessed #{num}.to_s"
+    puts "Sorry! The computer guessed #{num}"
   end
 end
