@@ -5,5 +5,7 @@ puts "Guess CLI"
 input = gets.chomp
 if input == "exit"
   puts "Goodbye!"
+elsif input.to_i == random_number
+  puts "You guessed the correct number!"
 end
 end
