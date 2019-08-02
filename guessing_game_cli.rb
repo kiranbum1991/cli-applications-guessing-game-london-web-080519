@@ -5,9 +5,9 @@ num = rand(1..6)
   guess_num = gets.chomp
   if guess_num == "exit"
     puts "Goodbye!"
-  elsif guess_num == num.to_s
+  elsif guess_num == num
     puts "You guessed the correct number!"
-  else
-    puts "Sorry! The computer guessed #{num}"
+  else guess_num != num
+    puts "Sorry! The computer guessed #{num}.to_s"
   end
 end
