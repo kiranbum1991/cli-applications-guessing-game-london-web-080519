@@ -7,7 +7,7 @@ num = Random.rand 1..6
     puts "Goodbye!"
   elsif guess_num.to_i + 1 == num
     puts "You guessed the correct number!"
-  else guess_num != num
+  else 
     puts "Sorry! The computer guessed #{num.to_s}"
   end
 end
