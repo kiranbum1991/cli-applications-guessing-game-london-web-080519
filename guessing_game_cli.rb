@@ -5,6 +5,6 @@ input = gets.chomp
 if input == "exit"
   puts "Goodbye!"
 elsif input != random_number.to_s.gsub('\n','')
-  puts "Sorry! The computer guessed #{random_number}"
+  puts "Sorry! The computer guessed #{random_number}."
 end
 end
