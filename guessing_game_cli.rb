@@ -4,7 +4,7 @@ random_number = rand(1..6).to_s
 input = gets.chomp
 if input == "exit"
   puts "Goodbye!"
-elsif input.to_i != random_number
-  puts "Sorry! The computer guessed #{random_number.to_s}"
+elsif input != random_number
+  puts "Sorry! The computer guessed #{random_number}"
 end
 end
